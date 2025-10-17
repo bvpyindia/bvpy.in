@@ -178,9 +178,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function initCountdown() {
         // Set exam date (example: 3 months from now)
         const examDate = new Date();
-        examDate.setMonth(examDate.getMonth() + 3);
+        examDate.setMonth(examDate.getMonth() + 1);
         examDate.setDate(15); // 15th of the month
-        examDate.setHours(10, 0, 0, 0); // 10:00 AM
+        examDate.setHours(11, 0, 0, 0); // 10:00 AM
         
         const daysElement = document.getElementById('days');
         const hoursElement = document.getElementById('hours');
